@@ -7,7 +7,7 @@ More formally, we will look for the following in our evaluation:
 ## Expected deliverables and evaluation criteria
 - Have a working prototype of the task described below.
 - (We will) assess how well you scope and assess the different components involved which will solve this problem
-- Assess how you divide your labor into the components you identify. Remember, there's a time budget of ~2 days.
+- Assess how you divide your labor into the components you identify. Remember, there's a time budget of a few days.
 - Assess how you wiggle out of situations when you're stuck.
 - Assess how well you communicate and let all stakeholders know of your progress.
 
@@ -23,23 +23,30 @@ More formally, we will look for the following in our evaluation:
     - In each row, the seven fields need to be populated with the information from the roll card.
     - If there's a descrepancy or confusion in parsing the information, leave it blank.
 
+- Suggest some quick ways to ensure that the data you have extracted is correct. Describe what you find from your analysis.
 
 ## Task 2
-- Have at least one plot, or one table which summarizes relevant statistics from the dataset. To begin with, for the task mentioned above, ask yourself what statistics you think are even relevant and would want answered?
+- We would like to determine if the gender classification in the gathered data from the poll cards is indeed correct. Suggest a way to evaluate this.   
+Hint: can you use an LLM to help solve this task?
 
-- Evaluation -- How will you evalute whether your algorithm/strategy covers all cases? It could well be we're unsure of this no matter what we do.
+## Task 3
+- Use an image generation model to generate the images of voter cards of any five people from the curated dataset of voters.  
+The voter card should contain all the seven fields present in a poll card.  
+Be creative with the aesthetic of the generated images of the voter cards.  
+The card should not contain faces of the people; just the text.
 
-## Instructions
+## Instructions to submit your work
 - Do not fork this repo. Work on a local copy. Make it a habit to push changes upstream to your repo as frequently as feasible.
 - Use `Python3.8+` for this work.
-- We workship the lords of reproducability of results. Use `conda` to create an environment and set up your repository. 
+- We greatly value reproducability of results. Use `conda` to create an environment and set up your repository. 
 - Use a `.gitignore` file to ensure you are not adding junk files to the repo.
 - Have a `./src/` folder containing the source.
 - Have a `./env/` folder containing the Conda environment file you create for this project.
 - Have a `./data/` folder containing all the data your source accesses.
 - Have a `./tests/` folder to write out unit tests for key functions. Look up the `unittest` package in Python if you haven't used it before.
-- Keep updating this README with instructions which will help with the reproducability of your work/results. The topomst section of your readme file should be `Approach`, where you will concisely describe the overeall approach you have considered to solve this problem. Describe there the general strategy you have used, the key tools you have considered, and the different metrics you have considered, and any other detail relevant to the evaluation criteria mentioned above.
+- Keep updating this README with instructions which will help with the reproducability of your work/results.  
+- The topmost section of your readme file should be titled `Approach`. In this section, concisely describe the overeall approach you considered to solve this problem. Describe the general strategy you used, the key tools you considered, the different metrics you considered to evaluate your work, and any other detail relevant to the task goals and the evaluation criteria mentioned above.
 
-Setting these up can be a little painful and time consuming. Push through it. Focus on getting the core functionality right first, though.
+Focus on getting the core functionality right first, and have a working prototype of your solution.
 
-
+On completing the task, share with us the URL to your repo local to your account.
