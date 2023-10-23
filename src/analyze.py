@@ -1,0 +1,1 @@
+# A program to collect and analyze information present in the file `./data/electoral_rolls.pdf`
