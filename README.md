@@ -7,7 +7,7 @@ More formally, we will look for the following in our evaluation:
 ## Expected deliverables and evaluation criteria
 - Have a working prototype of the task described below.
 - (We will) assess how well you scope and assess the different components involved which will solve this problem
-- Assess how you divide your labor into the components you identify. Remember, there's a time budget of a few days.
+- Assess how you divide your labor into the components you identify, and you quickly you're able to prototype and finish implementing those components. Remember, there's a time budget of a few days.
 - Assess how you wiggle out of situations when you're stuck.
 - Assess how well you communicate and let all stakeholders know of your progress.
 
