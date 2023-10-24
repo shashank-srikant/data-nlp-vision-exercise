@@ -43,7 +43,7 @@ The card should not contain faces of the people; just the text.
 - Have a `./src/` folder containing the source.
 - Have a `./env/` folder containing the Conda environment file you create for this project.
 - Have a `./data/` folder containing all the data your source accesses.
-- Have a `./tests/` folder to write out unit tests for key functions. Look up the `unittest` package in Python if you haven't used it before.
+- Have a `./tests/` folder to write out unit tests for key functions. Look up the `unittest` package in Python if you haven't used it before. Also, not every function you write needs to be tested---exercise your judgement and prioritize which function you want tested.
 - Keep updating this README with instructions which will help with the reproducability of your work/results.  
 - The topmost section of your readme file should be titled `Approach`. In this section, concisely describe the overeall approach you considered to solve this problem. Describe the general strategy you used, the key tools you considered, the different metrics you considered to evaluate your work, and any other detail relevant to the task goals and the evaluation criteria mentioned above.
 
