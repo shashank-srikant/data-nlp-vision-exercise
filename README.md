@@ -8,7 +8,7 @@ More formally, we will look for the following in our evaluation:
 - Have a working prototype of the task described below.
 - (We will) assess how well you scope and assess the different components involved which will solve this problem
 - Assess how you divide your labor into the components you identify, and how quickly you're able to prototype and finish implementing those components. Remember, there's a time budget of a few days.
-- Assess how you wiggle out of situations when you're stuck.
+- Assess how you resolve situations when you're stuck.
 - Assess how well you communicate and let all stakeholders know of your progress.
 
 ## Task 1
@@ -20,10 +20,10 @@ More formally, we will look for the following in our evaluation:
 
 - The final deliverable from this exercise should be:
     - A CSV or XLSX file containing the list of all the voters, one in each row.
-    - In each row, the seven fields need to be populated with the information from the roll card.
+    - In each row, the seven fields need to be populated  (as seven separate columns) with the information from the roll card.
     - If there's a descrepancy or confusion in parsing the information, leave it blank.
 
-- Suggest some quick ways to ensure that the data you have extracted is correct. Describe what you find from your analysis.
+- Suggest some quick ways to ensure that the data you have extracted is correct and valid. Describe what you find from your analysis.
 
 ## Task 2
 - We would like to determine if the gender classification in the gathered data from the poll cards is indeed correct. Suggest a way to evaluate this.   
@@ -32,7 +32,7 @@ Hint: can you use an LLM to help solve this task?
 ## Task 3
 - Use an image generation model to generate the images of voter cards of any five people from the curated dataset of voters.  
 The voter card should contain all the seven fields present in a poll card.  
-Be creative with the aesthetic of the generated images of the voter cards.  
+Be creative with the aesthetic/look-and-feel of the generated images of the voter cards.  
 The card should not contain faces of the people; just the text.
 
 ## Instructions to submit your work
